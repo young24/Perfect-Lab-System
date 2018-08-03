@@ -21,6 +21,8 @@ Third, the results folder stores all results of the project which will be presen
 
 Fourth, the reference folder stores all references from others than team members. The major file type would be PDF. Ideally, there would be a reference list written in Markdown where registered every document in the Reference folder. And only this reference list would be uploaded to GitHub while the real documents would be uploaded to a shared space that every member can access through one click on the item in the reference list even they are not in school. However, the current solution is as the same as the one for the results folder.
 
+**Best Practice for the reference folder?**: add a link to the web library (e.g., Mendeley's) in a Markdown file. So that people can go to the shared library by just one click on GitHub.
+
 Fifth, the working folder holds everything else in the process such as programs in use and data generated from the experiment system. Nothing would be uploaded to GitHub neither in the hard-copy way nor the pointer-copy way.
 
 ## Daily workflow

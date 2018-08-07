@@ -33,6 +33,7 @@ To make the best use of this perfect lab system, I designed this daily workflow 
 ## Future plan
 - Integrate Git-LFS in this system. There are still some technical issues to deal with. 
 - Integrate one of the reference managers to deal with references in a more efficient way.
+- Incorporate all actions/manipulations into the Git framework.
 
 
 

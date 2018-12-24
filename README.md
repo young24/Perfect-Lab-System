@@ -1,4 +1,7 @@
 ## Short-cuts 
+
+[![Join the chat at https://gitter.im/Perfect-Lab-System/community](https://badges.gitter.im/Perfect-Lab-System/community.svg)](https://gitter.im/Perfect-Lab-System/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [Project's wiki](https://github.com/young24/Perfect-Lab-System/wiki). This link is provided for an easier access from the mobile end.
 
 # Welcome to the perfect lab system

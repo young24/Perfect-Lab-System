@@ -1,3 +1,6 @@
+## Short-cuts 
+[Project's wiki](https://github.com/young24/Perfect-Lab-System/wiki). This link is provided for an easier access from the mobile end.
+
 # Welcome to the perfect lab system
 ![The perfect lab](https://github.com/young24/Perfect-Lab-System/blob/master/System/Images/diagram-for-the-perfect-lab-system.jpg)
 

@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/Perfect-Lab-System/community](https://badges.gitter.im/Perfect-Lab-System/community.svg)](https://gitter.im/Perfect-Lab-System/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[Project's wiki](https://github.com/young24/Perfect-Lab-System/wiki). This link is provided for an easier access from the mobile end.
+[<img src="https://github.com/young24/Perfect-Lab-System/blob/master/System/Images/check-wiki-QR-code.png" width="150">](https://github.com/young24/Perfect-Lab-System/wiki)
 
 # Welcome to the perfect lab system
 ![The perfect lab](https://github.com/young24/Perfect-Lab-System/blob/master/System/Images/diagram-for-the-perfect-lab-system.jpg)

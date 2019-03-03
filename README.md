@@ -1,6 +1,8 @@
 ## Short-cuts 
 
 [![Join the chat at https://gitter.im/Perfect-Lab-System/community](https://badges.gitter.im/Perfect-Lab-System/community.svg)](https://gitter.im/Perfect-Lab-System/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![link-to-cloud-storage](https://img.shields.io/badge/Cloud-Storage-yellow.svg)](https://www.google.com/drive/)
+
 
 [<img src="https://github.com/young24/Perfect-Lab-System/blob/master/System/Images/check-wiki-QR-code.png" width="150">](https://github.com/young24/Perfect-Lab-System/wiki)
 

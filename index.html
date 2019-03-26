@@ -25,7 +25,7 @@
     storageBucket: "test-firebase-4842b.appspot.com",
     messagingSenderId: "568554522599"
   };
-  firebase.initializeApp(config);
+
 
   function saveToFirebase(email) {
   var emailObject = {
@@ -41,6 +41,7 @@
       });
   }
 
+  firebase.initializeApp(config);
   saveToFirebase(email);
 
 

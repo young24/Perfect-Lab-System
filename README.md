@@ -4,11 +4,11 @@
 # Welcome to Perfect-Lab-System
 <!-- the following visual links (badges) are external links that links other pages than this page -->
 [![Read-Wikis](https://img.shields.io/badge/Read-Wikis-brightgreen.svg)](../../wiki)
-![Join the chat at https://gitter.im/Perfect-Lab-System/community](https://badges.gitter.im/Perfect-Lab-System/community.svg)](https://gitter.im/Perfect-Lab-System/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at](https://badges.gitter.im/Perfect-Lab-System/community.svg)](https://gitter.im/Perfect-Lab-System/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![link-to-cloud-storage](https://img.shields.io/badge/Cloud-Storage-yellow.svg)](https://www.google.com/drive/)
 
 
-<img src="../../blob/master/.github/Images/A-perfect-lab.jpg" align="left" height="250">
+<img src="../../blob/master/System/Images/A-perfect-lab.jpg" align="left" height="250">
 
 I believe a perfect lab would be a lab that **1.Share issues, knowledge, and files in an organized way**; **2.Track every detail of the project**; **3.Automate workflows**
 
@@ -32,10 +32,10 @@ If possible, please [read my ideas](./wiki#Design-principles) about this Perfect
 ## Need help
 - First, please search for solutions in the wiki and GitHub.
 - If no solution was found, you can post an issue on this repo.
-- Or you can write an email to the system maintainer xxx (example@company.com)
+- Or you can write an email to me (bysin7@gmail.com)
 
 ## Storage model
-![Storage model](../../blob/master/.github/Images/system-architechture.jpg)
+![Storage model](../../blob/master/System/Images/system-architechture.jpg)
 
 _**One project, one folder.**_
 
@@ -69,7 +69,7 @@ Finally, this sync folder will be linked to the corresponding GitHub Project-rep
 
 
 ## Daily workflow
-![Diagram-for-daily-workflow](https://github.com/young24/Perfect-Lab-System/blob/master/System/Images/Diagram-for-daily-workflow.jpg)
+![Diagram-for-daily-workflow](../../blob/master/System/Images/Daily-workflow.jpg)
 
 To make the best use of this perfect lab system, I designed this daily workflow.
 

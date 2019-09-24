@@ -76,6 +76,8 @@ To make the best use of this perfect lab system, I designed this daily workflow.
 ## Future plan
 - Add a database and link it to this repo
 - Add a GitHub bot to do routine checks automatically
+- Update this system with GitHub repo template
+- Write a section of privacy statement
 
 
 > As for myself, I must confess, I am absolutely incapable even of adding without mistakes... My memory is not bad, but it would be insufficient to make me a good chess-player. Why then does it not fail me in a difficult piece of matheatical reasoning where most chess-players would lose themselves? Evidently because it is guided by the general march of the reasoning. A mathematical demonstration is not a simple juxtaposition of syllogisms, it is syllogisms **_placed in a certain order_**, and the order in which these elements are placed is much more important than the elements themselves. If I have the feeling, the intuition, so to speak, of this order, so as to perceive at a glance the reasoning as a whole, I need no longer fear lest I forget one of the elements, for each of them will take its allotted place in the array, and that without any effort of memory on my part.

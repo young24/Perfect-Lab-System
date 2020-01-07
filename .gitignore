@@ -1,0 +1,9 @@
+# ignore temporary files at Code directory
+Code/.ipynb_checkpoints
+
+# ignore Working folder
+Working/
+
+# except for links, ignore everything in the Data folder
+#Data/
+!Data/*.lnk

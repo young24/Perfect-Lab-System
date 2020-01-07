@@ -8,3 +8,4 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.svg filter=lfs diff=lfs merge=lfs -text
 *.apk filter=lfs diff=lfs merge=lfs -text
+System/Images/Daily-workflow.jpg filter=lfs diff=lfs merge=lfs -text

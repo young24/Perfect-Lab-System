@@ -5,5 +5,5 @@ Code/.ipynb_checkpoints
 Working/
 
 # except for links, ignore everything in the Data folder
-#Data/
+Data/
 !Data/*.lnk

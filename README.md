@@ -35,7 +35,7 @@ If possible, please [read my ideas](./wiki#Design-principles) about this Perfect
 - Or you can write an email to me (bysin7@gmail.com)
 
 ## Storage model
-![Storage model](../../blob/master/System/Images/system-architechture.jpg)
+![Storage model](.github/Images/GitHub-repository-structure.JPG)
 
 _**One project, one folder**_
 

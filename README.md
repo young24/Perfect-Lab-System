@@ -10,7 +10,7 @@
 
 <img src="../../blob/master/System/Images/A-perfect-lab.jpg" align="left" height="250">
 
-I believe a perfect lab would be a lab that **1.Share issues, knowledge, and files in an organized way**; **2.Track every detail of the project**; **3.Automate workflows**
+I believe a perfect lab would be a lab that **1. Share issues, knowledge, and everything in an organized way**; **2. Track every detail of the project**; **3. Automate workflows**
 
 This Perfect-Lab-System project is dedicated to the above goals. This repository is designed as a project template for teamwork in any laboratory (e.g., a Bio-lab). If you want to manage a project with not just code, but also literature, figures, and big data. This repository would be a perfect starting point. Getting started from [here](../../wiki/user-guide#getting-started).
 
@@ -37,35 +37,27 @@ If possible, please [read my ideas](./wiki#Design-principles) about this Perfect
 ## Storage model
 ![Storage model](../../blob/master/System/Images/system-architechture.jpg)
 
-_**One project, one folder.**_
+_**One project, one folder**_
 
-This storage model is for Project-repo and its corresponding local sync folder. (For a Code-repo, Git takes control of everything, no cloud sync involved.)
+This storage model is for Project-repo.
 
-Since a Project-repo is designed as an online platform, we just use it online, not local usage for this type of repository.
-
-There are two subfolders on GitHub: (.github means these folders are only used on GitHub)
+There are two subfolders only displayed on GitHub: (.github means these folders are only used on GitHub)
 - .github/Images: save images that are rendered in GitHub Wiki
-- .github/Files: save files that are linked in GitHub Wiki; for files that larger than 10 MB, please put the files in Nutstore, then paste the links on GitHub
+- .github/Files: save files that are linked in GitHub Wiki
 
-We use sync folders to handle local files that will be shared within a team. The name of the local sync folder should be exactly the same as the corresponding GitHub Project-repo. (For a Code-repo, do not create its sync folder counterpart since Git should take care of everything.)
+There are five subfolders
+- **Code**: put all your code files here (including jupyter notebook etc.) However, please do not save the generated figures in this folder (save them in the Results folder). You can also link a separate code repo with "git submodule" ([see details](https://git-scm.com/book/en/v2/Git-Tools-Submodules))
 
-There are five subfolders inside the sync folder:
-- Code folder: You can git clone other Code-repos at here. Since there is no Git control over the sync folder, be sure to put code files in a Code-repo. (If there is no Code-repo, create one for your code. You can name it as `xx-analysis` or `xx-acquisition`.)
+- **Data**: Put all experiment data and intermediate data in the **Data** folder. For big data, only put links here.
 
-- Data folder: Put all experiment data and intermediate data in the **Data** folder. You have the option to auto-sync the data with our storage server. Ask admin users for more info.
+- **Docs**: Put binary files, such as WORD, powerpoint here. Do not recommend put too many paper here. My suggestion is using a cloud paper management and only put notes on Wiki. For one or two Google Docs (cloud-based sync files), one can use gitignore to ignore the files in git control
 
-- References folder: Put literature and files that are not composed by your team are in the **References** folder. All the files in this folder will be synced via Nutstore with your teammates.
+- **Results**: Put the final results for publications such as manuscripts and figures in the **Results** folder. Do not put large data files (>100MB) in this folder since all the files in this folder will be synced via Nutstore with your teammates.
 
-- Results folder: Put the final results for publications such as manuscripts and figures in the **Results** folder. Do not put large data files (>100MB) in this folder since all the files in this folder will be synced via Nutstore with your teammates.
-
-- Working folder: Files in the **Working** folder would not be uploaded or synced with any other devices/services. This is where you put anything unfinished, such as your programs to generate raw data. Please remember to put finished files into the above folders to keep track of them.
-
-Finally, this sync folder will be linked to the corresponding GitHub Project-repo as a badge in README.
+- **Working**: Files in the **Working** folder will not be uploaded or synced with GitHub or any other service. It's like a sandbox for you to experiment (e.g., write a new application). Please remember to put finished files into the above folders so that git can track them.
 
 ### Warnings!
-1. **DO NOT ADD ANY FILES/FOLDERS AT THE ROOT OF YOUR SYNC FOLDER**, put the temporary files to the "Working" folder, files to the References folder and the Results folder to auto-sync with Nutstore.
-2. **Except the Data, Working folders, DO NOT PUT ANY LARGE FILES (> 100 MB) IN ANY FOLDER**
-3. Please do not edit/rename/move/remove the configuration files again.
+1. **DO NOT ADD ANY FILES/FOLDERS AT THE ROOT OF YOUR SYNC FOLDER**; put the temporary files in the "Working" folder
 
 
 ## Daily workflow
